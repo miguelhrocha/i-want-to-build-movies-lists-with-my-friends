@@ -7,4 +7,7 @@ module.exports = {
     '@storybook/addon-a11y',
     '@storybook/addon-notes',
   ],
+  typescript: {
+    
+  }
 }

@@ -2,6 +2,7 @@ import { action } from '@storybook/addon-actions';
 
 import Button from './button.svelte';
 import Movie from '../src/Movie.svelte';
+import Search from '../src/Search.svelte';
 import "./tailwind.css";
 
 export default {
@@ -11,7 +12,11 @@ export default {
 
 export const MovieStory = () => ({
   Component: Movie
-})
+});
+
+export const SearchStory = () => ({
+  Component: Search
+});
 
 export const Text = () => ({
   Component: Button,
