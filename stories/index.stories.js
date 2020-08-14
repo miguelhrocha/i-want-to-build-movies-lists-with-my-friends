@@ -1,12 +1,17 @@
 import { action } from '@storybook/addon-actions';
 
 import Button from './button.svelte';
+import Movie from '../src/Movie.svelte';
 import "./tailwind.css";
 
 export default {
   title: 'Button',
   component: Button,
 };
+
+export const MovieStory = () => ({
+  Component: Movie
+})
 
 export const Text = () => ({
   Component: Button,

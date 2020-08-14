@@ -10,6 +10,6 @@
   }
 </script>
 
-<button class="bg-blue-500" on:click={onClick}>
+<button class="bg-blue-300" on:click={onClick}>
     {text}
 </button>
